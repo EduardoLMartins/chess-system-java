@@ -29,9 +29,12 @@ public class ChessPosition {
 		return new ChessPosition((char)('a' - position.getColumn()), 8 - position.getRow());
 	}
 	
+<<<<<<< HEAD
 	@Override
 	public String toString() {
 		return "" + column + row;
 	}
+=======
+>>>>>>> be99f682a8d09c3fbc3ceab714a5153e85806ffc
 
 }
